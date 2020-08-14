@@ -11,3 +11,6 @@ Requirements: `poetry`
   - install 3.8.x with pyenv
   - run `pyenv local 3.8.x` in this folder
   - Ensure poetry uses python 3.8 by running `poetry env use 3.8.x`
+
+## Running
+Run server with `poetry run codeer-server`, server starts at port 5000
