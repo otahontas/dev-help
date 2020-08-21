@@ -1,0 +1,11 @@
+{
+  "name": "Codeer",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "version": "0.0.1",
+  "repository": "http://github.com/otahontas/codeer",
+  "author": "vikketii, otahontas",
+  "license": "MIT"
+}
