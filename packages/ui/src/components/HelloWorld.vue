@@ -1,14 +1,23 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <h1>Hello {{ info.hello }}</h1>
   </div>
 </template>
 
 <script>
+import axios from 'axios'
+
 export default {
   name: 'HelloWorld',
-  props: {
-    msg: String
+  data () {
+    return {
+      info: null
+    }
+  },
+  mounted () {
+    axios
+      .get('http://localhost:5000')
+      .then(response => (this.info = response.data))
   }
 }
 </script>
