@@ -1,10 +1,10 @@
 import aiofiles
 from starlette.applications import Starlette
+<<<<<<< HEAD
 from starlette.middleware import Middleware
 from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import JSONResponse, FileResponse, StreamingResponse
 from starlette.routing import Route
-import uvicorn
 from pathlib import Path
 
 
@@ -30,6 +30,3 @@ app = Starlette(debug=True, routes=[
     Route('/', homepage),
     Route('/video', video),
 ], middleware=middleware)
-
-def main():
-    uvicorn.run(app, host='0.0.0.0', port=5000)

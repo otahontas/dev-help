@@ -13,4 +13,4 @@ Requirements: `poetry`
   - Ensure poetry uses python 3.8 by running `poetry env use 3.8.x`
 
 ## Running
-Run server with `poetry run server`, server starts at port 5000
+Run server with hot reload enabled by launching shell script `./start_server.sh`. Server launches on port 8000 by default.
