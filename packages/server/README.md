@@ -1,6 +1,6 @@
-# Codeer server 
+# Server
 
-Backend for coreer, built with `starlette` running on `python 3.8+`.
+Server for dev-help, built with `starlette` and `python 3.8+`.
 
 ## Install
 Requirements: `poetry`
@@ -13,4 +13,4 @@ Requirements: `poetry`
   - Ensure poetry uses python 3.8 by running `poetry env use 3.8.x`
 
 ## Running
-Run server with `poetry run codeer-server`, server starts at port 5000
+Run server with `poetry run server`, server starts at port 5000

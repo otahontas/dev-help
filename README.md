@@ -1,6 +1,6 @@
-# Codeer
+# Dev-help
 
-Codeer is a peer-to-peer coding tutoring platrform. 
+Dev-help is a peer-to-peer coding tutoring platform. 
 
 ## Stack
 - Frontend: Vue with Tailwind CSS

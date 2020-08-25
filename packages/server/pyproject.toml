@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "codeer-server"
+name = "dev_help"
 version = "0.0.1"
 description = ""
 authors = ["vikketii, otahontas"]
@@ -17,4 +17,4 @@ requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
 
 [tool.poetry.scripts]
-codeer-server = "codeer_server.server:main"
+server = "dev_help.server:main"
