@@ -1,5 +1,7 @@
 # Server
 
+![Server code style check](https://github.com/otahontas/dev-help/workflows/Server%20code%20style%20check/badge.svg)
+
 Server for dev-help, built with `starlette` and `python 3.8+`.
 
 ## Install
