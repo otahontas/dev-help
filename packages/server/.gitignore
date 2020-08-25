@@ -137,3 +137,5 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+# Project related things
+src/dev_help/data/videos
