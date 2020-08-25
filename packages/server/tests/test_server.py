@@ -2,6 +2,7 @@ import pytest
 from httpx import AsyncClient
 from dev_help.server import app
 
+
 @pytest.mark.asyncio()
 async def test_app():
     """Check app starts and returns 200 from homepage"""

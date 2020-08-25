@@ -14,3 +14,9 @@ Requirements: `poetry`
 
 ## Running
 Run server with hot reload enabled by launching shell script `./start_server.sh`. Server launches on port 8000 by default.
+
+## Linting and code formatting
+
+Code should be formatted with `black` code formatter and linted with `flake8`. We have configured `nox` environment and github actions to do the checks for code styles.
+
+It is recommended to add black and flake8 formatting to your editor of choice.
