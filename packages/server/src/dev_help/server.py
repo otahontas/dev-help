@@ -1,7 +1,6 @@
 from starlette.applications import Starlette
 from starlette.middleware import Middleware
 from starlette.middleware.cors import CORSMiddleware
-from starlette.responses import JSONResponse, FileResponse, StreamingResponse
 from starlette.responses import JSONResponse
 from starlette.routing import Route
 from dev_help.endpoints.videos import Videos, Video
