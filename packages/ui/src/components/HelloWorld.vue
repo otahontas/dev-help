@@ -14,10 +14,9 @@ export default {
       info: null
     }
   },
-  mounted () {
-    axios
-      .get('http://localhost:5000')
-      .then(response => (this.info = response.data))
+  async mounted () {
+    const response = await axios.get('http://localhost:5000')
+    this.info = response.data
   }
 }
 </script>
