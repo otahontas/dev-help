@@ -1,6 +1,6 @@
 # Dev-help
 
-Dev-help is a peer-to-peer coding tutoring platform. 
+Currently not in development. At some point, this may be peer-to-peer coding tutoring platform.
 
 ## Stack
 - Frontend: Vue with Tailwind CSS
@@ -9,3 +9,4 @@ Dev-help is a peer-to-peer coding tutoring platform.
 
 ## Monorepo handling
 - Lerna
+
